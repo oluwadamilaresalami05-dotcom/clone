@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headerBox{
+    width: 100%;
+    height: 12vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+}
+.linkOne a {
+    color: black;
+}
+.bslogo{
+    width: 30%;
+    /* border: 2px solid black; */
+}
+
+.navBox{
+    width: 40%;
+     /* border: 2px solid green;  */
+     font-size: 10px;
+}
+
+.navBox ul{
+     display: flex;
+     justify-content: space-between;
+     /* align-items: center; */
+}
+
+.hambuggerBox{
+    display: none;
+}
+
+
+.hambugger{
+    width: 30px;
+    height: 3px;
+    background-color: blue;
+    margin: 5px;
+}
+.companyBlog{
+    /* border: 2px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featuredBlog{
+    /* border: 2px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companyBox{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 80%;
+}
+.featuredBox{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 75%;
+}
+.articleContn{
+    /* border: 2px solid green; */
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 234, 234);
+}
+
+.articleDiv{
+    /* border: 2px solid red; */
+    height: 91%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px 10px rgba(173, 168, 168, 0.941);
+}
+.articleHeading{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+}
+.articleImg{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid; */
+     border-radius: 0 20px 20px 0 ;
+     background-color: rgba(43, 43, 43, 0.698);
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 150px;
+     color: darkgray;
+}
+.articleBox{
+    width: 80%;
+    height: 50%;
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+}
+.articleBox p {
+  color: gray;
+}
+.newsBxx{
+    height: 8%;
+    width: 25%;
+    /* border: 2px solid; */
+    border-radius: 15px;
+    background-color: blue;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contactSection{
+    /* border: 2px solid red; */
+    height: 800px;
+    background-color: rgba(138, 138, 138, 0.511);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactDiv{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bootstrapBox{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 60%;
+}
+
+.contactBox{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 30%;
+    /* background-color: white; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innercontactBox{
+       height: 50%;
+       width: 90%;
+       /* border: 2px solid blue; */
+       text-align: center;
+       background-color: whitesmoke;
+       border-radius: 10px;
+}
+
+.linkOne{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 25%;
+}
+
+.newsBox{
+    /* border: 2px solid red; */
+    height:700px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogPost{
+    height: 80%;
+    width: 75%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+.postDiv{
+    height: 97%;
+    width: 32%;
+    /* border: 2px solid brown; */
+    border-radius: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    box-shadow: 2px  2PX 2PX 2PX grey;
+}
+.divCnt{
+    /* width: 100%;
+    height: 40%;
+    border: 2px solid blue;
+     */
+      /* border: 2px solid red; */
+    background-color: darkgray;
+    height: 200px;
+    width:100%;
+    border-radius: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    box-shadow: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: gray;
+
+}
+.mediaBox{
+    /* border: 2px solid blue; */
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: blue;
+    text-align: center;
+}
+.blogBox{
+    /* border: 2px solid green; */
+    height: 30%;
+    margin: 10px;
+}
+.profileBxx{
+    height: 50px;
+    width: 50px;
+    /* border: solid 2px black; */
+    background-color: grey;
+    border-radius: 100%;
+    /* margin-left:15px; */
+    font-size: 10px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kellyDiv{
+    /* border: 2px solid blue; */
+    /* height: 60%; */
+    width: 65%;
+    font-size: 15px;
+}
+.prflKelly{
+    /* border: 2px solid green; */
+    display: flex;
+    /* width: 75%; */
+    align-items: center;
+    margin: 10px;
+    /* justify-content: center; */
+}
+.footerContn{
+    /* border: 2px solid red; */
+    height: 100px;
+    background-color:darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.copyContn{
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.copyDiv{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+.termsBox{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .navBox{
+        display: none;
+    }
+    .hambuggerBox{
+        display: block;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+    }
+    .sizeBox{
+        display: none;
+    }
+
+    .headingBox{
+        width: 100%;
+    }
+    .articleContn{
+        height: 700px;
+        display: flex;
+    }
+    .articleDiv{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 10px 10px 10px;
+        /* justify-content: space-between; */
+        /* height: 1000px; */
+    }
+    .articleHeading{
+        width: 100%;
+        height: 55%;
+        border-radius: 10px 10px 0 0;
+        
+    }
+    .articleBox{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+.articleImg{
+    width: 100%;
+    height: 45%;
+    font-size: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.contactDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.bootstrapBox{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactBox{
+  width: 100%;
+  height: 55%;
+}
+
+.innercontactBox{
+       height: 80%;
+       width: 90%;
+       text-align: center;
+}
+.blogPost{
+   display: flex ;
+   flex-direction: column;   
+   height: 95%;
+}
+.newsBox{
+    height:2000px ;
+    display: flex;
+    justify-content: center;
+}
+.postDiv{
+    width: 95%;
+}
+.footerContn{
+        height: 80px;
+    }
+    .copyContn{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyDiv{
+       width: 70%;
+    height: 40%;
+    }
+    .termsBox{
+        width: 70%;
+    height: 40%;
+    }
