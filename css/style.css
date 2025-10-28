@@ -69,6 +69,8 @@ a{
     justify-content: center;
     align-items: center;
     padding: 5% 0 ;
+    /* border: 2px solid red; */
+    width: 100%;
 }
 
 .startBtn{
@@ -193,7 +195,7 @@ a{
 .miniBox{
     height: 40px;
     width: 40px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 10px;
     /* margin: 20px 0 10px 10px; */
     background-color: blue;
@@ -201,7 +203,7 @@ a{
 
 .workingSection{
     /* border: 2px solid green; */
-    /* width: 100%; */
+    width: 100%;
     height: 310px;
     display: flex;
     flex-direction: column;
@@ -210,7 +212,7 @@ a{
 }
 .pDiv{
     height: 100%;
-    width: 500px;
+    /* width: 500px; */
     /* border: 2px solid red; */
 
     /* margin-top: 40px; */
@@ -251,6 +253,7 @@ a{
 }
 .headContainer{
     /* border: 2px solid  ; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,7 +261,7 @@ a{
 .headBox{
     /* border: 2px solid red; */
     height: 150px;
-    width: 500px;
+    width: 70%;
     /* text-align: center; */
     /* padding-left: 60px; */
     /* padding-right: 60px; */
@@ -288,7 +291,7 @@ a{
 
 .worldBox{
     /* border: 2px solid red; */
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -302,6 +305,7 @@ a{
 .newsBox{
     /* border: 2px solid red; */
     height:500px ;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -324,13 +328,9 @@ a{
     box-shadow: 2px  2PX 2PX 2PX grey;
 }
 .divCnt{
-    /* width: 100%;
     height: 40%;
-    border: 2px solid blue;
-     */
-      /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     background-color: darkgray;
-    height: 200px;
     width:100%;
     border-radius: 10px;
     /* display: flex; */
@@ -391,7 +391,7 @@ a{
 }
 .emailCont{
     /* border: 2px solid red; */
-    height: 210px;
+    height: 250px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -400,8 +400,8 @@ a{
 .emailDiv{
     /* border: 2px solid green; */
     border-radius: 10px;
-    height: 95%;
-    width: 33%;
+    height: 85%;
+    width: 50%;
     background-color: blue;
     text-align: center;
     /* padding: 20px; */
@@ -410,7 +410,7 @@ a{
 .bBox{
     /* width:100%; */
     border-radius: 5px;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     height: 30px;
     /* padding-left:15px; */
     background-color: blue;
@@ -420,7 +420,7 @@ a{
 .inputBox{
      /* width:100%; */
     border-radius: 5px;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     height: 30px;
     /* padding-left:15px; */
     /* background-color: blue; */
@@ -431,10 +431,12 @@ a{
 .footerContn{
     /* border: 2px solid red; */
     height: 100px;
+    width: 100%;
     background-color:darkgray;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .copyContn{
@@ -483,10 +485,12 @@ a{
 }
     .headingBox{
         width: 100%;
+        /* border: 2px solid red; */
     }
     .divContainer{
         display: flex;
         flex-direction: column;
+        /* border: 2px solid ; */
         /* height: 200vh; */
 
     }
@@ -515,20 +519,23 @@ a{
     }
     .pDiv{
         padding: 20px;
+        width: 300px;
     }
     .profileBox{
         margin: 0%;
     }
     .headBox{
         text-align: center;
+        /* border: 2px solid green; */
+        height: 90%;
+        width:100%;
     }
-    .newsContainer{
-        /* margin: 20px;
-        margin-left: 80px; */
-    }
+ 
     .newsBox{
     /* border: 2px solid red; */
+    margin-top:82px ;
     height:1500px ;
+    width: 100%;
     display: flex;
     justify-content: center;
     }
@@ -541,15 +548,19 @@ a{
     align-items: center;
     
 }
+.emailCont{
+    width: 100%;
+}
 .emailDiv{
     /* border: 2px solid green; */
     border-radius: 10px;
-    height: 99%;
-    width: 55%;
+    height: 80%;
+    width: 75%;
     background-color: blue;
     text-align: center;
     /* padding: 20px; */
     color: azure;
+   
 }
 .postDiv{
     /* height: 95%; */
@@ -563,7 +574,9 @@ a{
         flex-direction: column;
     /* } */
     .footerContn{
-        height: 80px;
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid red; */
     }
     .copyContn{
         display: flex;
@@ -578,8 +591,9 @@ a{
     height: 40%;
     }
     .worldBox{
-      /* width: 100%; */
-        padding: 20px;
+        width: 100%;
+        /* padding: 20px; */
+        /* border: 2px solid red; */
     }
     
     .h2Container{
@@ -598,6 +612,20 @@ a{
    
 }
 
+.headContainer{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 300px;
+}
+.workingSection{
+   /* border: 2px solid red; */
+   width: 100%;
+}
+
+.sectionCont{
+    /* border: 2px solid green; */
+    width: 100%;
+}
 
 }
 
