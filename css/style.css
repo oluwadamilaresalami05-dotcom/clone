@@ -270,9 +270,6 @@ a{
    
 }
 
-.headbox p{
-    /* margin: 20px; */
-}
 .profileContainer{
     height: 50px;
     width: 50px;
@@ -504,10 +501,6 @@ a{
         padding: 20px;
         margin-top: 0px;
     } 
-
-    .featuresTwo{
-       
-    }
     .titleBox{
         /* display: flex;
         flex-direction: column;
