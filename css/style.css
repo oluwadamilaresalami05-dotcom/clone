@@ -519,15 +519,17 @@ a{
     .pDiv{
         /* border: 2px solid; */
         padding: 20px 0px 20px 20px;
-      width: 90%;
+      width: 70%;
+      height: 67%;
         /* background-color: whitesmoke; */
     }
     .pCover{
-      width: 75%;
-    
+      width: 90%;
     align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
     }
     .profileBox{
         margin: 0%;
@@ -535,13 +537,14 @@ a{
     .headBox{
         text-align: center;
         /* border: 2px solid green; */
-        height: 90%;
-        width:80%;
+        height: 70%;
+        width:60%;
+        margin-top: 30px;
     }
  
     .newsBox{
     /* border: 2px solid red; */
-    margin-top:82px ;
+    margin-top:30px ;
     height:1500px ;
     width: 100%;
     display: flex;
@@ -613,12 +616,18 @@ a{
 .headContainer{
     width: 100%;
     /* border: 2px solid red; */
-    height: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .workingSection{
    /* border: 2px solid red; */
    width: 100%;
-   height: 280px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
 }
 
 .sectionCont{
