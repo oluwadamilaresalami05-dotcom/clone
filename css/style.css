@@ -204,24 +204,25 @@ a{
 .workingSection{
     /* border: 2px solid green; */
     width: 100%;
-    height: 310px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+     background-color: whitesmoke;
 }
 .pDiv{
     height: 100%;
-    /* width: 500px; */
     /* border: 2px solid red; */
+    width: 70%;
 
     /* margin-top: 40px; */
-    background-color: whitesmoke;
-    text-align: center;
-    display: flex;
+   
+    /* text-align: center; */
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .profileBox{
     height: 50px;
@@ -242,13 +243,18 @@ a{
     /* border: 2px solid green; */
     /* text-align: center; */
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    width: 30%;
+
 
 }
 .dClass{
     /* border: 2px solid red; */
-    height: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
 
 }
 .headContainer{
@@ -511,8 +517,17 @@ a{
         /* border: 2px solid green; */
     }
     .pDiv{
-        padding: 20px;
-        width: 300px;
+        border: 2px solid;
+        padding: 20px 0px 20px 20px;
+      width: 90%;
+        /* background-color: whitesmoke; */
+    }
+    .pCover{
+      width: 75%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     }
     .profileBox{
         margin: 0%;
@@ -556,10 +571,9 @@ a{
    
 }
 .postDiv{
-    /* height: 95%; */
-    width: 70%;
     /* border: 2px solid brown; */
     justify-content: space-around;
+    width: 100%;
 }
 /* @media (width < 400px){
     .btnBox{
@@ -595,11 +609,6 @@ a{
     display: flex;
     margin: 10px;
 }
-
-.postDiv{
-    width: 100%;
-}
-
 .headBox{
  width: 300px;
    
@@ -613,6 +622,7 @@ a{
 .workingSection{
    /* border: 2px solid red; */
    width: 100%;
+   height: 280px;
 }
 
 .sectionCont{
